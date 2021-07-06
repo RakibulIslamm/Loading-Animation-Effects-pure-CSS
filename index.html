@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onselectstart="return false">
     <section>
         <div class="letteranim">
             <span style="--i:1;">L</span>
@@ -24,6 +24,9 @@
             <span style="--i:10;">.</span>
         </div>
     </section>
+    <script language="JavaScript">
+        document.oncontextmenu = new Function("return false;")
+    </script>
 </body>
 
 </html>

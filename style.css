@@ -26,6 +26,7 @@ section{
 
 
 span{
+    user-select: none;
     font-size: 3em;
     letter-spacing: 3px;
     font-weight: 700;
